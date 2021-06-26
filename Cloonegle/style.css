@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-size: 62.5%;
+    background-color: ivory;
+    list-style: none;
+}
+
+header {
+    width: 100vw;
+    height: 5vh;
+    font-size: 2rem;
+    background-color: lightgray;
+}
+
+.nav-menu {
+    position: relative;
+    right: view-width - 1rem;
+}
+
+.item {
+    margin: 0.5rem;
+}
