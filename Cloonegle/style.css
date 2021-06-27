@@ -6,22 +6,43 @@
 
 html {
     font-size: 62.5%;
-    background-color: ivory;
+    background-color: #fffff0;
     list-style: none;
 }
 
 header {
     width: 100vw;
-    height: 5vh;
+    height: 8vh;
     font-size: 2rem;
     background-color: lightgray;
+    position: relative;
 }
 
 .nav-menu {
-    position: relative;
-    right: view-width - 1rem;
+    position: absolute;
+    right: 1rem;
+    padding: 1rem;
 }
 
 .item {
-    margin: 0.5rem;
+    margin: 1rem;
+    border-width: 0.rem;
+    border-color: white;
+    border-radius: 1rem;
+}
+
+main {
+    width: 100vw;
+    margin: 20rem auto;
+    min-width: 420px;
+    position: relative;
+    text-align: center;
+}
+
+footer {
+    width: 100vw;
+    background-color: gray;
+    height: 5rem;
+    text-align: center;
+    position: relative;
 }
