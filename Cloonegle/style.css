@@ -39,6 +39,11 @@ main {
     text-align: center;
 }
 
+li {
+    text-decoration-line: none;
+    color: black;
+}
+
 footer {
     width: 100vw;
     background-color: gray;
