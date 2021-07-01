@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="225.000000pt" height="225.000000pt" viewBox="0 0 225.000000 225.000000"
+ preserveAspectRatio="xMidYMid meet">
+<metadata>
+Created by a nice person
+</metadata>
+<g transform="translate(0.000000,225.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M637 1613 c-4 -3 -7 -66 -7 -140 l0 -133 140 0 140 0 0 140 0 140
+-133 0 c-74 0 -137 -3 -140 -7z"/>
+<path d="M990 1480 l0 -140 135 0 135 0 0 140 0 140 -135 0 -135 0 0 -140z"/>
+<path d="M1340 1480 l0 -140 140 0 141 0 -3 138 -3 137 -137 3 -138 3 0 -141z"/>
+<path d="M630 1125 l0 -135 140 0 140 0 0 135 0 135 -140 0 -140 0 0 -135z"/>
+<path d="M990 1125 l0 -135 135 0 135 0 0 135 0 135 -135 0 -135 0 0 -135z"/>
+<path d="M1340 1125 l0 -135 140 0 140 0 0 135 0 135 -140 0 -140 0 0 -135z"/>
+<path d="M632 773 l3 -138 138 -3 137 -3 0 141 0 140 -140 0 -141 0 3 -137z"/>
+<path d="M990 770 l0 -140 135 0 135 0 0 140 0 140 -135 0 -135 0 0 -140z"/>
+<path d="M1340 770 l0 -141 138 3 137 3 3 138 3 137 -141 0 -140 0 0 -140z"/>
+</g>
+</svg>

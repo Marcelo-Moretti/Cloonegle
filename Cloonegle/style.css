@@ -5,30 +5,41 @@
 }
 
 html {
-    font-size: 62.5%;
     background-color: #fffff0;
     list-style: none;
 }
 
 header {
     width: 100vw;
-    height: 8vh;
-    font-size: 2rem;
+    height: 3rem;
     background-color: lightgray;
-    position: relative;
 }
 
 .nav-menu {
-    position: absolute;
-    right: 1rem;
-    padding: 1rem;
+    display: flex;
+    justify-content: end;
+    margin-right: 1rem;
+
 }
 
 .item {
-    margin: 1rem;
-    border-width: 0.rem;
+    border-width: 0.5rem;
+    font-size: 1.2rem;
+    margin-right: 1rem;
     border-color: white;
     border-radius: 1rem;
+}
+
+.item__user {
+    width: auto;
+    height: auto;
+    max-width: 3rem;
+    max-height: 3rem;
+}
+
+.item__options {
+    max-height: 3.5rem;
+    max-width: 3.5rem;
 }
 
 main {
@@ -44,10 +55,30 @@ li {
     color: black;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 footer {
     width: 100vw;
     background-color: gray;
     height: 5rem;
     text-align: center;
     position: relative;
+}
+
+section {
+    margin: 1rem;
+}
+
+h1, h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+.container {
+    margin: 5rem;
 }
