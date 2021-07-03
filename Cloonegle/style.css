@@ -13,7 +13,8 @@ html {
 
 header {
     width: 100%;
-    height: 3rem;
+    height: auto;
+    position: relative;
     background-color: lightgray;
 }
 
@@ -22,36 +23,39 @@ header nav {
     justify-content: flex-end;
 }
 
-header nav .nav-menu {
-    width: 250px;
+/*header nav .nav-menu {
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+}*/
+
+header .item-alt {
+    font-size: 1.4rem;
 }
 
-.item {
-    margin-right: 10px;
+header nav .item a {
+    margin-right: 1rem;
     color: black;
     cursor: pointer;
 }
 
-.nav-menu .item__options {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStbx4ErwSGQH5oy76rPDfkBbzWNZGzi2AAe-ueJrBK9WiT7KOxR2v3lcyBwz4M5yrXCDs&usqp=CAU");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 25px;
-    height: 25px;
+
+header .item img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.5rem auto;
 }
 
 main {
     width: 100vw;
-    margin: 10rem auto;
+    margin: 8rem auto;
     min-width: 420px;
     position: relative;
     text-align: center;
 }
+
+
 
 li {
     text-decoration-line: none;
@@ -75,13 +79,6 @@ section {
     margin: 1rem;
 }
 
-h1, h2 {
-    font-size: 2rem;
-}
-
-p {
-    font-size: 1.2rem;
-}
-.container {
+.main-image {
     margin: 5rem;
 }
